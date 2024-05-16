@@ -1,0 +1,73 @@
+
+button {
+    background: #6e0404 ! IMPORTANT;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 206px;
+    font-size: 21px;
+}
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.button-container  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+};
+
+div#text-display {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div#text-display {
+    position: absolute;
+    top: 68%;
+    left: 34%;
+    font-size: 27px;
+    font-family: cursive;
+}
+
+body {
+    /* background-position: center; */
+    background-image: url(imam.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100% !IMPORTANT;
+    height: 100% !IMPORTANT;
+    margin-top: 51%;
+    background-color: #0000008a !important;
+    background-blend-mode: soft-light;
+}
+div#text-display {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1 {
+    font-family: cursive;
+    color: white !IMPORTANT;
+    font-size: 29px;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+h6 {
+    font-size: 30px;
+    color: white !IMPORTANT;
+    font-family: cursive;
+    background: black !IMPORTANT;
+    padding: 5px;
+    text-align: end;
+}
